@@ -13,6 +13,7 @@ $(document).ready(function () {
     $('#menu-toogle').click(function () {
         $('.mobile-menu').slideToggle();
     })
+    
     $('.carusel').slick({
         dots: false,
         arrows: true,
