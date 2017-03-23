@@ -76,8 +76,11 @@
                       <button type="button" class="toast-close-button" aria-label="Close">
                         <span aria-hidden="true">×</span>
                       </button>
-                      <div class="toast-message"><strong>Congratulations!
-Your email has been created.</strong></div>
+                      <div class="toast-message">
+                      <strong>Congratulations!
+Your email has been created.
+</strong>
+</div>
                       <div class="toast-message">Please wait until your domain comes online (usually just a few minutes, but sometimes up to a couple hours)</div>
                     </div>
                   </div>
@@ -108,7 +111,9 @@ Your email has been created.</strong></div>
 
 
                 </h3>
-                <h4>your details won't be publicly visible if you leave the privacy option ON</h4>
+                <h4>
+                your details won't be publicly visible if you leave the privacy option ON
+                </h4>
               </div>
             <div class="col-sm-6">
               <!-- <h2>Blank</h2>
@@ -120,41 +125,45 @@ Your email has been created.</strong></div>
 <fieldset>
 
 <!-- Form Name -->
-<legend>Source address</legend>
+<legend>
+Source address
+</legend>
 
 
 
    <div class="col-xs-12 col-sm-12 col-md-12">
    <div class="form-group">
-    <label class="col-lg-12 col-sm-3 control-label">First Name
+    <!-- <label class="col-lg-12 col-sm-3 control-label">First Name
                     <span class="required">*</span>
-                  </label>
+                  </label> -->
        <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+       <span class="required">*</span>
   </div>
      </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
-          <label class="col-lg-12 col-sm-3 control-label">Last Name
+          <!-- <label class="col-lg-12 col-sm-3 control-label">Last Name
               <span class="required">*</span>
-          </label>
+          </label> -->
             <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+            <span class="required">*</span>
         </div>
     </div>
 
 
   <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="State">Company name</label>  
-  <div class="col-md-6">
+  <!-- <label class="col-md-4 control-label" for="State">Company name</label>   -->
+  <div class="col-md-12">
   <input id="company_name" name="company_name" type="text" placeholder="Company name" class="form-control input-md" required="">
-  
+  <span class="required">*</span>
   </div>
 </div>
 
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="address1">address</label>  
+  <!-- <label class="col-md-4 control-label" for="address1">address</label>   -->
   <div class="col-md-8">
   <input id="address1" name="address1" type="text" placeholder="address" class="form-control input-md">
   <span class="required">*</span>
@@ -165,7 +174,7 @@ Your email has been created.</strong></div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="zip">Zip/Postcode</label>  
+  <!-- <label class="col-md-4 control-label" for="zip">Zip/Postcode</label>   -->
   <div class="col-md-4">
   <input id="zip" name="zip" type="text" placeholder="Postcode" class="form-control input-md" required="">
   <span class="required">*</span>
@@ -175,7 +184,7 @@ Your email has been created.</strong></div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="city">City</label>  
+  <!-- <label class="col-md-4 control-label" for="city">City</label>   -->
   <div class="col-md-6">
   <input id="city" name="city" type="text" placeholder="City" class="form-control input-md" required="">
     <span class="required">*</span>
@@ -184,7 +193,7 @@ Your email has been created.</strong></div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="State">State / Province</label>  
+  <!-- <label class="col-md-4 control-label" for="State">State / Province</label>   -->
   <div class="col-md-6">
   <input id="State" name="State" type="text" placeholder="State / Province" class="form-control input-md" required="">
   <span class="required">*</span>
@@ -195,10 +204,10 @@ Your email has been created.</strong></div>
 
 <!-- Select Basic -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="Country">Country</label>
+  <!-- <label class="col-md-4 control-label" for="Country">Country</label> -->
   <div class="col-md-5">
 
-    <label for="addressCountry">Country</label>
+    <!-- <label for="addressCountry">Country</label> -->
                     <select name="addressCountry">
                         <option></option>
                         <optgroup label="North America">
@@ -447,7 +456,7 @@ Your email has been created.</strong></div>
                         </optgroup>
                         <option value="AQ">Antarctica</option>
                     </select>
-
+<span class="required">*</span>
     <!-- <select id="Country" name="Country" class="form-control">
       <option value="IR">IR Iran</option>
       <option value="USA">United States</option>
@@ -461,7 +470,7 @@ Your email has been created.</strong></div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="phone">Phone number</label>  
+  <!-- <label class="col-md-4 control-label" for="phone">Phone number</label>   -->
   <div class="col-md-8">
   <input id="phone" name="phone" type="text" placeholder="Phone number" class="form-control input-md">
    <span class="required">*</span>
@@ -470,10 +479,10 @@ Your email has been created.</strong></div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="fax">Fax number</label>  
+  <!-- <label class="col-md-4 control-label" for="fax">Fax number</label>   -->
   <div class="col-md-8">
   <input id="fax" name="fax" type="text" placeholder="Fax number" class="form-control input-md">
-   <span class="required">*</span>
+   <!-- <span class="required">*</span> -->
   </div>
 </div>
 
