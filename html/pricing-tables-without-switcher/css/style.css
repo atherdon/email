@@ -109,7 +109,8 @@ Main Components
     clear: both;
   }
   .cd-pricing-list > li {
-    width: 33.3333333333%;
+    width: 50%;
+    /*width: 33.3333333333%;*/
     float: left;
   }
   .cd-pricing-list > li::before {
@@ -163,7 +164,8 @@ Main Components
     display: none;
   }
   .cd-has-margins .cd-pricing-list > li {
-    width: 32.3333333333%;
+    width: 40%;
+    /*width: 32.3333333333%;*/
     float: left;
     margin-right: 1.5%;
     border-radius: 4px 4px 6px 6px;
