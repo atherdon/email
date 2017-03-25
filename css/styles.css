@@ -334,6 +334,13 @@ main .content{
 	-moz-animation: sonarEffect 1.3s ease-out 75ms;
 	animation: sonarEffect 1.3s ease-out 75ms;
 }
+
+.input-lg {
+	border-radius: 0px;
+}
+
+
+
 @-webkit-keyframes sonarEffect {
 	0% {
 		opacity: 0.3;
@@ -514,6 +521,13 @@ main .sub-title{
 
 /*End preloader*/
 
+.main-form {
+	padding-top: 240px
+}
+.sub-title {
+    padding-top: 25px;
+    font: 19px/23px 'Aven-Regular', sans-serif;
+}
 
 /**/
 form.form-styles{
@@ -533,7 +547,15 @@ form .form-group {
 input.form-control{
 	color: #2196f3;
 }
-.btn.btn-color{
+
+.intl-tel-input input {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.btn.btn-color {
 	float: right;
 	width: 20%;
 	text-align: center;
@@ -545,18 +567,18 @@ input.form-control{
 	color:#feffff;
 	font: 22px/80px 'Aven-Demi', serif;
 	text-transform: uppercase;
-	border-radius:40px;
+	/*border-radius:40px;*/
 	-webkit-border-top-left-radius: 0px;
-    -webkit-border-top-right-radius: 40px;
-    -webkit-border-bottom-right-radius: 40px;
+    /*-webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;*/
     -webkit-border-bottom-left-radius: 0px;
     -moz-border-top-left-radius: 0px;
-    -moz-border-top-right-radius: 40px;
-    -moz-border-bottom-right-radius: 40px;
+    /*-moz-border-top-right-radius: 40px;
+    -moz-border-bottom-right-radius: 40px;*/
     -moz-border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+/*    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;*/
     border-bottom-left-radius: 0px;
     outline:0;
     -webkit-transition:all .2s linear; 
@@ -565,11 +587,11 @@ input.form-control{
     	-o-transition: all .2s linear;
            transition: all .2s linear;
 }
-.btn-color.btn:focus{
+.btn-color.btn:focus {
 	outline:0;
 	color: #feffff;
 }
-.btn-color.btn:active{
+.btn-color.btn:active {
 	outline:none;
 }
 .btn-color.btn:hover{
