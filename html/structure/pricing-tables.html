@@ -20,12 +20,12 @@
   <link rel="stylesheet" href="../../assets/css/site.min.css">
 
   <!-- Plugins -->
-  <link rel="stylesheet" href="../../assets/vendor/animsition/animsition.css">
-  <link rel="stylesheet" href="../../assets/vendor/asscrollable/asScrollable.css">
-  <link rel="stylesheet" href="../../assets/vendor/switchery/switchery.css">
-  <link rel="stylesheet" href="../../assets/vendor/intro-js/introjs.css">
-  <link rel="stylesheet" href="../../assets/vendor/slidepanel/slidePanel.css">
-  <link rel="stylesheet" href="../../assets/vendor/flag-icon-css/flag-icon.css">
+  <!-- <link rel="stylesheet" href="../../assets/vendor/animsition/animsition.css"> -->
+  <!-- <link rel="stylesheet" href="../../assets/vendor/asscrollable/asScrollable.css"> -->
+  <!-- <link rel="stylesheet" href="../../assets/vendor/switchery/switchery.css"> -->
+  <!-- <link rel="stylesheet" href="../../assets/vendor/intro-js/introjs.css"> -->
+  <!-- <link rel="stylesheet" href="../../assets/vendor/slidepanel/slidePanel.css"> -->
+  <!-- <link rel="stylesheet" href="../../assets/vendor/flag-icon-css/flag-icon.css"> -->
 
   <!-- Fonts -->
   <link rel="stylesheet" href="../../assets/fonts/web-icons/web-icons.min.css">
@@ -59,7 +59,12 @@
   <!-- Page -->
   <div class="page animsition">
 
-    
+  <style>
+    .pricing-annotation {
+      position: relative;
+      top:0px;
+    }
+  </style>    
 
     <div class="page-content">
       <!-- Panel -->
@@ -77,7 +82,12 @@
                 <div class="col-sm-6 col-lg-3">
                   <div class="pricing-list">
                     <div class="pricing-header">
-                      <div class="pricing-title">Quarterly</div>
+                      <div class="pricing-title">
+                      Quarterly
+                      </div>
+                      <div class="pricing-annotation">
+                        
+                      </div>
                       <div class="pricing-price">
                         <span class="pricing-currency">&euro;</span>
                         <!-- <span class="pricing-currency">EUR</span> -->
@@ -91,12 +101,15 @@
                           billed as <strong>EUR 14.85 / quarter</strong>
                       </li>
                       <li>
-                        *(stop anytime)
+                        Stop anytime
                       </li>
 
                     </ul>
-                    <div class="pricing-footer"><br/><br/><br/>
-                      <a class="btn btn-primary btn-outline" role="button"><i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>Select</a>
+                    <div class="pricing-footer"><br/><br/><br/> <!-- @todo fix this -->
+                      <a class="btn btn-primary btn-outline" role="button">
+                      <i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>
+                      Select
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -104,6 +117,9 @@
                   <div class="pricing-list">
                     <div class="pricing-header">
                       <div class="pricing-title bg-blue-600">Yearly</div>
+                      <div class="pricing-annotation">
+                        <strong>23%</strong>  discount
+                      </div>
                       <div class="pricing-price">
                         <!-- <span class="pricing-currency blue-600">EUR</span> -->
                         <span class="pricing-currency blue-600">&euro;</span>
@@ -116,73 +132,21 @@
                       <li>
                         billed as <strong>EUR 45.60/ year</strong>
                         </li>
+                        
                         <li>
-                        <strong>23%</strong>  discount</li>
-                        <li>
-                        *(stop anytime)
+                          Stop anytime
                         </li>
-                      <!-- 
-                      <li>
-                        <strong>2GHZ</strong> CPU</li>
-                      <li>
-                        <strong>256MB</strong> Memory</li> -->
+                      
                     </ul>
                     <div class="pricing-footer">
-                      <a class="btn btn-primary btn-outline" role="button"><i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>Select</a>
+                      <a class="btn btn-primary btn-outline" role="button">
+                      <i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>
+                      Select
+                      </a>
                     </div>
                   </div>
                 </div>
 
-                <!-- <div class="col-sm-6 col-lg-3">
-                  <div class="pricing-list">
-                    <div class="pricing-header">
-                      <div class="pricing-title">Professional</div>
-                      <div class="pricing-price">
-                        <span class="pricing-currency">$</span>
-                        <span class="pricing-amount">60</span>
-                        <span class="pricing-period">/ mo</span>
-                      </div>
-                    </div>
-                    <ul class="pricing-features">
-                      <li>
-                        <strong>10GB</strong> of Lorem ipsum</li>
-                      <li>
-                        <strong>200MB</strong> Max File Size</li>
-                      <li>
-                        <strong>2GHZ</strong> CPU</li>
-                      <li>
-                        <strong>256MB</strong> Memory</li>
-                    </ul>
-                    <div class="pricing-footer">
-                      <a class="btn btn-primary btn-outline" role="button"><i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>Select</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                  <div class="pricing-list">
-                    <div class="pricing-header">
-                      <div class="pricing-title">Flagship</div>
-                      <div class="pricing-price">
-                        <span class="pricing-currency">$</span>
-                        <span class="pricing-amount">70</span>
-                        <span class="pricing-period">/ mo</span>
-                      </div>
-                    </div>
-                    <ul class="pricing-features">
-                      <li>
-                        <strong>10GB</strong> of Lorem ipsum</li>
-                      <li>
-                        <strong>200MB</strong> Max File Size</li>
-                      <li>
-                        <strong>2GHZ</strong> CPU</li>
-                      <li>
-                        <strong>256MB</strong> Memory</li>
-                    </ul>
-                    <div class="pricing-footer">
-                      <a class="btn btn-primary btn-outline" role="button"><i class="icon wb-arrow-right font-size-16 margin-right-15" aria-hidden="true"></i>Select</a>
-                    </div>
-                  </div>
-                </div> -->
 
               </div>
             </div>
@@ -191,31 +155,6 @@
 
 
 
-
-
-          <!-- Example Pricing List2 -->
-         <!--  <div class="example-wrap">
-            <h4 class="example-title">
-              Pricing-List - Bg In Head
-            </h4>
-            <div class="example">
-              <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                  
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                  
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                  
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                  
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End Example Pricing List2 -->
 
           
 
@@ -235,34 +174,34 @@
   <!-- Core  -->
   <script src="../../assets/vendor/jquery/jquery.js"></script>
   <script src="../../assets/vendor/bootstrap/bootstrap.js"></script>
-  <script src="../../assets/vendor/animsition/jquery.animsition.js"></script>
-  <script src="../../assets/vendor/asscroll/jquery-asScroll.js"></script>
-  <script src="../../assets/vendor/mousewheel/jquery.mousewheel.js"></script>
-  <script src="../../assets/vendor/asscrollable/jquery.asScrollable.all.js"></script>
-  <script src="../../assets/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+  <!-- <script src="../../assets/vendor/animsition/jquery.animsition.js"></script> -->
+  <!-- <script src="../../assets/vendor/asscroll/jquery-asScroll.js"></script> -->
+  <!-- <script src="../../assets/vendor/mousewheel/jquery.mousewheel.js"></script> -->
+  <!-- <script src="../../assets/vendor/asscrollable/jquery.asScrollable.all.js"></script> -->
+  <!-- <script src="../../assets/vendor/ashoverscroll/jquery-asHoverScroll.js"></script> -->
 
   <!-- Plugins -->
-  <script src="../../assets/vendor/switchery/switchery.min.js"></script>
-  <script src="../../assets/vendor/intro-js/intro.js"></script>
-  <script src="../../assets/vendor/screenfull/screenfull.js"></script>
-  <script src="../../assets/vendor/slidepanel/jquery-slidePanel.js"></script>
+  <!-- <script src="../../assets/vendor/switchery/switchery.min.js"></script> -->
+  <!-- <script src="../../assets/vendor/intro-js/intro.js"></script> -->
+  <!-- <script src="../../assets/vendor/screenfull/screenfull.js"></script> -->
+  <!-- <script src="../../assets/vendor/slidepanel/jquery-slidePanel.js"></script> -->
 
   <!-- Scripts -->
   <script src="../../assets/js/core.js"></script>
   <script src="../../assets/js/site.js"></script>
 
-  <script src="../../assets/js/sections/menu.js"></script>
-  <script src="../../assets/js/sections/menubar.js"></script>
-  <script src="../../assets/js/sections/gridmenu.js"></script>
-  <script src="../../assets/js/sections/sidebar.js"></script>
+  <!-- <script src="../../assets/js/sections/menu.js"></script> -->
+  <!-- <script src="../../assets/js/sections/menubar.js"></script> -->
+  <!-- <script src="../../assets/js/sections/gridmenu.js"></script> -->
+  <!-- <script src="../../assets/js/sections/sidebar.js"></script> -->
 
-  <script src="../../assets/js/configs/config-colors.js"></script>
-  <script src="../../assets/js/configs/config-tour.js"></script>
+  <!-- <script src="../../assets/js/configs/config-colors.js"></script> -->
+  <!-- <script src="../../assets/js/configs/config-tour.js"></script> -->
 
-  <script src="../../assets/js/components/asscrollable.js"></script>
-  <script src="../../assets/js/components/animsition.js"></script>
-  <script src="../../assets/js/components/slidepanel.js"></script>
-  <script src="../../assets/js/components/switchery.js"></script>
+  <!-- <script src="../../assets/js/components/asscrollable.js"></script> -->
+  <!-- <script src="../../assets/js/components/animsition.js"></script> -->
+  <!-- <script src="../../assets/js/components/slidepanel.js"></script> -->
+  <!-- <script src="../../assets/js/components/switchery.js"></script> -->
 
   <!-- Scripts For This Page -->
 
